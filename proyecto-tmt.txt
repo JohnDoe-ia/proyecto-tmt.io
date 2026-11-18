@@ -1,0 +1,14 @@
+proyecto-tmt/
+├── index.html
+├── styles.css
+└── img/
+    ├── puerto-5g.jpg
+    ├── esquema-puerto.jpg
+    ├── gruas-agv.jpg
+    ├── control-remoto.jpg
+    ├── dron-maritimo.jpg
+    ├── mantenimiento-robotico.jpg
+    ├── puente-mando.jpg
+    ├── portico-ocr.jpg
+    ├── gemelo-digital.jpg
+    └── shore-connect.jpg

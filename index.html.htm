@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!-- Declaración de documento HTML5 e idioma español -->
+<html lang="es">
+<head>
+    <!-- Codificación UTF-8 para que se vean bien las tildes y la letra ñ -->
+    <meta charset="UTF-8">
+    <!-- Etiqueta viewport: hace que la página se adapte a celulares y tablets (Responsive) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descripción académica para motores de búsqueda -->
+    <meta name="description" content="Proyecto T.M.T. (Trabajo Marítimo Tecnológico) - Portal educativo sobre Puertos Inteligentes y Automatizados. IMMBC.">
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Proyecto T.M.T. | Puertos Inteligentes y Automatizados</title>
+    <!-- Enlace a nuestra hoja de estilos visual (styles.css) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- =================================================================
+         ENCABEZADO Y MENÚ DE NAVEGACIÓN (Las 5 pestañas del protocolo)
+         ================================================================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <!-- Logotipo tipográfico institucional -->
+            <a href="#inicio" class="logo">
+                <span class="logo-badge">T.M.T.</span> Puertos 4.0
+            </a>
+
+            <!-- Menú con enlaces internos a las 5 secciones definidas en la Tabla 3 del protocolo -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">1. Inicio</a></li>
+                    <li><a href="#proyecto">2. El Proyecto</a></li>
+                    <li><a href="#ejes">3. Ejes Tecnológicos</a></li>
+                    <li><a href="#casos">4. Casos y Glosario</a></li>
+                    <li><a href="#contacto">5. Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =================================================================
+         SECCIÓN 1: INICIO (HOME / BANNER PRINCIPAL)
+         Propósito: Bienvenida institucional y visión general del Proyecto T.M.T.
+         ================================================================= -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <!-- Columna izquierda: Texto de impacto y botones -->
+            <div class="hero-content">
+                <span class="badge-institucional">Instituto de Marina Mercante Bilingüe de Coclé (IMMBC)</span>
+                <h1>Puertos Inteligentes y Automatizados en la Transformación del Comercio Marítimo</h1>
+                <p>
+                    Bienvenido al portal educativo del <strong>Proyecto T.M.T. (Trabajo Marítimo Tecnológico)</strong>.
+                    Explora de forma clara y didáctica cómo la robótica industrial, la inteligencia artificial
+                    y los gemelos digitales están reconfigurando las terminales portuarias 4.0 a nivel global.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#ejes" class="btn btn-primary">Explorar Tecnologías</a>
+                    <a href="#casos" class="btn btn-outline">Ver Casos y Glosario</a>
+                </div>
+            </div>
+
+            <!-- Columna derecha: Imagen principal (Red 5G privada y terminal automatizada) -->
+            <div class="hero-image">
+                <img src="img/puerto-5g.jpg" alt="Ingeniero supervisando terminal portuaria conectada mediante red 5G privada">
+                <p class="img-caption">Supervisión en tiempo real de grúas y vehículos AGV mediante red privada 5G.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================================================
+         SECCIÓN 2: EL PROYECTO
+         Propósito: Explicar el origen estudiantil, objetivos y ficha técnica
+         ================================================================= -->
+    <section id="proyecto" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>El Proyecto T.M.T.</h2>
+                <p>Reduciendo la brecha entre la formación marítima tradicional en aula y la industria portuaria 4.0.</p>
+            </div>
+
+            <div class="project-grid">
+                <!-- Explicación académica del proyecto y objetivos -->
+                <div class="project-text">
+                    <h3>Origen y Propósito Educativo</h3>
+                    <p>
+                        En la actualidad existe una marcada brecha entre los contenidos teóricos tradicionales y la acelerada
+                        evolución tecnológica de las terminales automatizadas. El <strong>Proyecto T.M.T.</strong> nace como una
+                        iniciativa académica dirigida a cadetes, estudiantes de marina mercante y alumnos de logística portuaria.
+                    </p>
+                    <h4>Objetivos del Portal</h4>
+                    <ul class="check-list">
+                        <li><strong>Fundamentos 4.0:</strong> Presentar de forma didáctica la robótica de muelle y patio, la IA predictiva y los sistemas digitales.</li>
+                        <li><strong>Consulta Práctica:</strong> Facilitar casos reales y un glosario técnico accesible sin barreras de lenguaje excesivas.</li>
+                        <li><strong>Visión de Futuro:</strong> Fomentar las competencias digitales que demandará el sector marítimo en los próximos años.</li>
+                    </ul>
+
+                    <!-- Tabla de Ficha Técnica basada en la Tabla 1 del documento APA -->
+                    <div class="ficha-box">
+                        <h4>Ficha Técnica del Protocolo</h4>
+                        <table class="ficha-table">
+                            <tr>
+                                <th>Autor / Investigador:</th>
+                                <td>Sebastián Alejandro Guevara Galindo</td>
+                            </tr>
+                            <tr>
+                                <th>Institución:</th>
+                                <td>Instituto de Marina Mercante Bilingüe de Coclé (IMMBC)</td>
+                            </tr>
+                            <tr>
+                                <th>Área / Asignatura:</th>
+                                <td>Tecnología Marítima y Logística</td>
+                            </tr>
+                            <tr>
+                                <th>Asesor Técnico:</th>
+                                <td>Ing. Johnathan José Galindo Gallardo</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Infografía arquitectónica del puerto inteligente -->
+                <div class="project-diagram">
+                    <img src="img/esquema-puerto.jpg" alt="Arquitectura integral de un puerto inteligente conectado">
+                    <div class="diagram-note">
+                        <strong>Arquitectura de un Smart Port:</strong> Integración satelital, paneles de control de grúas,
+                        escáneres ópticos, puertas de seguridad, gestión de carga y sistemas de navegación.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================================================
+         SECCIÓN 3: EJES TECNOLÓGICOS
+         Propósito: Desarrollar los 3 pilares técnicos de la Industria 4.0
+         ================================================================= -->
+    <section id="ejes" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Los 3 Ejes Tecnológicos del Puerto 4.0</h2>
+                <p>Análisis estructurado de las tecnologías emergentes que impulsan la eficiencia, seguridad y sostenibilidad marítima.</p>
+            </div>
+
+            <!-- SUB-BLOQUE 3.1: EJE 1 - ROBÓTICA INDUSTRIAL -->
+            <div class="axis-block">
+                <div class="axis-title">
+                    <span class="axis-number">Eje 01</span>
+                    <h3>Robótica Portuaria y Automatización de Terminal</h3>
+                </div>
+                <div class="cards-grid-4">
+                    <!-- Tarjeta 1: Grúas y AGV -->
+                    <article class="card">
+                        <img src="img/gruas-agv.jpg" alt="Grúas pórtico automatizadas y vehículos AGV">
+                        <div class="card-body">
+                            <h4>Grúas STS y Vehículos AGV</h4>
+                            <p>Las grúas pórtico automatizadas descargan contenedores directamente sobre Vehículos de Guiado Automático (AGV) que se desplazan por el patio mediante sensores láser y magnéticos sin conductor a bordo.</p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 2: Control Remoto -->
+                    <article class="card">
+                        <img src="img/control-remoto.jpg" alt="Operador controlando grúas de forma remota">
+                        <div class="card-body">
+                            <h4>Teleoperación desde Sala de Control</h4>
+                            <p>Los operadores ya no trabajan en cabinas a 50 metros de altura; controlan las grúas desde estaciones ergonómicas asistidas por cámaras de alta definición, telemetría láser y sistemas anticolisión.</p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 3: Drones Marítimos -->
+                    <article class="card">
+                        <img src="img/dron-maritimo.jpg" alt="Vehículo autónomo de superficie USV">
+                        <div class="card-body">
+                            <h4>Robótica Acuática (USV)</h4>
+                            <p>Embarcaciones autónomas no tripuladas patrullan las dársenas para realizar batimetrías (medición de profundidad), inspección de cascos y despliegue rápido de barreras ante derrames.</p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 4: Ingeniería y Mantenimiento -->
+                    <article class="card">
+                        <img src="img/mantenimiento-robotico.jpg" alt="Ingenieros realizando mantenimiento de actuadores portuarios">
+                        <div class="card-body">
+                            <h4>Ingeniería Electromecánica</h4>
+                            <p>La automatización transforma el empleo portuario: requiere técnicos especializados en mantenimiento preventivo de actuadores hidráulicos, sensores ópticos y sistemas mecatrónicos pesados.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- SUB-BLOQUE 3.2: EJE 2 - INTELIGENCIA ARTIFICIAL -->
+            <div class="axis-block">
+                <div class="axis-title">
+                    <span class="axis-number">Eje 02</span>
+                    <h3>Inteligencia Artificial y Optimización Logística</h3>
+                </div>
+                <div class="cards-grid-2">
+                    <!-- Tarjeta 5: Pórticos OCR -->
+                    <article class="card card-horizontal">
+                        <img src="img/portico-ocr.jpg" alt="Pórticos inteligentes con visión artificial para camiones">
+                        <div class="card-body">
+                            <h4>Accesos Automatizados y Visión Artificial (OCR)</h4>
+                            <p>
+                                Mediante pórticos equipados con cámaras de Reconocimiento Óptico de Caracteres (OCR) e Inteligencia Artificial,
+                                el puerto identifica automáticamente la matrícula del camión, el código ISO del contenedor y el estado de los
+                                sellos de seguridad sin detener el flujo vehicular, reduciendo los tiempos de espera de horas a minutos.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 6: Puente de Mando Digital -->
+                    <article class="card card-horizontal">
+                        <img src="img/puente-mando.jpg" alt="Puente de mando integrado con cartas electrónicas ECDIS">
+                        <div class="card-body">
+                            <h4>Sincronización Buque-Puerto y Navegación Predictiva</h4>
+                            <p>
+                                Los puentes de mando modernos integran radares ARPA, cartas electrónicas (ECDIS) y algoritmos de IA que
+                                se comunican directamente con el sistema de tráfico portuario (VTS) para calcular la velocidad óptima de arribo
+                                (*Just-In-Time Arrival*), ahorrando combustible y evitando congestiones en la bahía.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- SUB-BLOQUE 3.3: EJE 3 - SISTEMAS DIGITALES Y SOSTENIBILIDAD -->
+            <div class="axis-block">
+                <div class="axis-title">
+                    <span class="axis-number">Eje 03</span>
+                    <h3>Sistemas Digitales, Gemelos Digitales y Sostenibilidad</h3>
+                </div>
+                <div class="cards-grid-2">
+                    <!-- Tarjeta 7: Gemelos Digitales -->
+                    <article class="card card-horizontal">
+                        <img src="img/gemelo-digital.jpg" alt="Interfaz de software de un Gemelo Digital portuario">
+                        <div class="card-body">
+                            <h4>Gemelos Digitales (Digital Twins) y Sistemas TOS</h4>
+                            <p>
+                                Réplicas virtuales en 3D conectadas mediante sensores IoT reproducen en tiempo real cada movimiento del puerto.
+                                Permiten simular maniobras de estiba, predecir cuellos de botella y coordinar el Sistema Operativo de la Terminal (TOS)
+                                con precisión milimétrica.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 8: ShoreCONNECT / Cold Ironing -->
+                    <article class="card card-horizontal">
+                        <img src="img/shore-connect.jpg" alt="Sistema automatizado ShoreCONNECT suministrando electricidad al buque">
+                        <div class="card-body">
+                            <h4>Electrificación de Muelles (OPS / Cold Ironing)</h4>
+                            <p>
+                                Brazos robóticos articulados (como el sistema <em>ShoreCONNECT</em>) conectan los buques a la red eléctrica
+                                de alta tensión terrestre. Esto permite apagar los motores auxiliares diésel mientras el barco está atracado,
+                                reduciendo a cero las emisiones de carbono y el ruido en la terminal.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =================================================================
+         SECCIÓN 4: CASOS DE ESTUDIO Y GLOSARIO TÉCNICO
+         Propósito: Ejemplificar puertos reales y definir terminología marítima
+         ================================================================= -->
+    <section id="casos" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Casos de Estudio Globales y Glosario Técnico</h2>
+                <p>Referentes internacionales de automatización portuaria y vocabulario esencial para estudiantes marítimos.</p>
+            </div>
+
+            <!-- Tabla Comparativa de Puertos Líderes -->
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Terminal Portuaria</th>
+                            <th>Ubicación</th>
+                            <th>Tecnologías Destacadas</th>
+                            <th>Impacto Operativo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Puerto de Róterdam</strong> (Maasvlakte II)</td>
+                            <td>Países Bajos (Europa)</td>
+                            <td>Flota de AGV eléctricos guiados por transpondedores, grúas remotas y plataforma IoT con IBM.</td>
+                            <td>Operación continua 24/7 con cero emisiones locales y alta precisión en ventanas de atraque.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Puerto de Shanghái</strong> (Terminal de Yangshan Fase IV)</td>
+                            <td>China (Asia)</td>
+                            <td>Mayor terminal automatizada del mundo. Gemelo digital integral, grúas puente autónomas y red 5G.</td>
+                            <td>Manejo superior a 6 millones de TEU anuales en la terminal con reducción del 70 % de personal en patio.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Puerto de Singapur</strong> (Tuas Mega Port)</td>
+                            <td>Singapur (Asia)</td>
+                            <td>Control de tráfico marítimo por IA, flota de más de 1.000 AGV proyectados y drones de inspección.</td>
+                            <td>Consolidación de todas las operaciones en una sola mega-terminal inteligente de próxima generación.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Diccionario / Glosario Marítimo 4.0 -->
+            <h3 class="subsection-title">Glosario Marítimo Tecnológico</h3>
+            <div class="glossary-grid">
+                <div class="glossary-item">
+                    <h4>AGV (Automated Guided Vehicle)</h4>
+                    <p>Vehículo autónomo sin conductor utilizado para transportar contenedores entre el muelle de descarga y el patio de almacenamiento.</p>
+                </div>
+                <div class="glossary-item">
+                    <h4>STS (Ship-to-Shore)</h4>
+                    <p>Grúas pórtico gigantes ubicadas al borde del muelle diseñadas para cargar y descargar contenedores directamente desde los buques.</p>
+                </div>
+                <div class="glossary-item">
+                    <h4>Gemelo Digital (Digital Twin)</h4>
+                    <p>Modelo virtual tridimiensional de una terminal física que recibe datos en vivo de sensores para monitorear y simular operaciones.</p>
+                </div>
+                <div class="glossary-item">
+                    <h4>TOS (Terminal Operating System)</h4>
+                    <p>Software central ("cerebro del puerto") que planifica, controla y asigna la ubicación exacta de cada contenedor y equipo.</p>
+                </div>
+                <div class="glossary-item">
+                    <h4>OCR (Reconocimiento Óptico)</h4>
+                    <p>Tecnología de visión artificial instalada en grúas y pórticos que lee automáticamente los códigos de contenedores y patentes de camiones.</p>
+                </div>
+                <div class="glossary-item">
+                    <h4>Cold Ironing (OPS)</h4>
+                    <p>Suministro de energía eléctrica desde tierra a los buques atracados para que apaguen sus motores diésel auxiliares.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================================================
+         SECCIÓN 5: CONTACTO ACADÉMICO
+         Propósito: Canal de comunicación para consultas y aportes estudiantiles
+         ================================================================= -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Contacto y Retroalimentación Académica</h2>
+                    <p>
+                        Este portal es un proyecto de divulgación estudiantil en actualización mensual.
+                        Si eres estudiante, docente o profesional del sector marítimo y deseas compartir consultas
+                        o sugerencias técnicas, completa el formulario.
+                    </p>
+                    <ul class="contact-details">
+                        <li><strong>Autor:</strong> Sebastián Alejandro Guevara Galindo</li>
+                        <li><strong>Institución:</strong> Instituto de Marina Mercante Bilingüe de Coclé (IMMBC)</li>
+                        <li><strong>Asesoría Técnica:</strong> Ing. Johnathan José Galindo Gallardo</li>
+                        <li><strong>Actualización de contenidos:</strong> Periodicidad mensual</li>
+                    </ul>
+                </div>
+
+                <!-- Formulario estructurado según la Tabla 2 del protocolo -->
+                <form class="contact-form" action="#" method="post" onsubmit="alert('¡Gracias por tu aporte académico al Proyecto T.M.T.!'); return false;">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Cadete Juan Pérez" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="correo@institucion.edu.pa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="institucion">Institución Educativa / Empresa</label>
+                        <input type="text" id="institucion" name="institucion" placeholder="Ej. IMMBC - Coclé" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="consulta">Consulta o Aporte Académico</label>
+                        <textarea id="consulta" name="consulta" rows="4" placeholder="Escribe tu comentario sobre automatización portuaria..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Enviar Consulta Académica</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================================================
+         PIE DE PÁGINA (FOOTER) Y REFERENCIAS APA
+         ================================================================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h4>Proyecto T.M.T. (Trabajo Marítimo Tecnológico)</h4>
+                <p>Portal educativo sobre Puertos Inteligentes y Automatizados. Elaborado bajo estándares académicos APA (7.ª ed.).</p>
+            </div>
+            <div>
+                <h4>Referencias Principales</h4>
+                <ul class="references-list">
+                    <li>Port of Rotterdam. (2026). <em>Smart port: Digitalization and innovation in port logistics</em>.</li>
+                    <li>Maritime Executive. (2026). <em>Maritime news, technology and port automation</em>.</li>
+                    <li>Smart Ports. (2026). <em>Piers of the future: Port innovation and sustainability</em>.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sebastián Alejandro Guevara Galindo | IMMBC | Asesor Técnico: Ing. Johnathan José Galindo Gallardo</p>
+        </div>
+    </footer>
+
+</body>
+</html>
